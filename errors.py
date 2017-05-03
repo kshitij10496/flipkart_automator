@@ -1,0 +1,2 @@
+class ExpectedElementError(Exception):
+    pass
