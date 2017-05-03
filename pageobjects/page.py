@@ -1,7 +1,7 @@
 import time
-from textelement import Text
-from errors import ExpectedElementError
-from laptop import Laptop
+from .textelement import Text
+from .errors import ExpectedElementError
+from .laptop import Laptop
 
 class BasePage(object):
     timeout_seconds = 20

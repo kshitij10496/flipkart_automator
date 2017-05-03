@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 
-from webelement import WebElement
+from .webelement import WebElement
 
 
 class WebDriver(webdriver.Chrome):
