@@ -1,6 +1,6 @@
 import time
 from .textelement import Text
-from .errors import ExpectedElementError
+from .errors import ExpectedElementError, WaitForElementError
 from .laptop import Laptop
 
 class BasePage(object):
